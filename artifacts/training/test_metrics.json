@@ -1,0 +1,10 @@
+{
+  "selected_model": "logistic_regression",
+  "best_cv_roc_auc": 0.9113442113442114,
+  "test_size": 61,
+  "selected_run_id": "fffbfa36054b4551b08f4a29f873434c",
+  "test_accuracy": 0.8852459016393442,
+  "test_precision": 0.8387096774193549,
+  "test_recall": 0.9285714285714286,
+  "test_roc_auc": 0.9610389610389611
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "logistic_regression",
+    "cv_roc_auc": 0.9113442113442114,
+    "test_accuracy": 0.8852459016393442,
+    "test_precision": 0.8387096774193549,
+    "test_recall": 0.9285714285714286,
+    "test_roc_auc": 0.9610389610389611
+  },
+  {
+    "model": "random_forest",
+    "cv_roc_auc": 0.9002640676553721,
+    "test_accuracy": 0.8852459016393442,
+    "test_precision": 0.8387096774193549,
+    "test_recall": 0.9285714285714286,
+    "test_roc_auc": 0.9523809523809524
+  },
+  {
+    "model": "adaboost",
+    "cv_roc_auc": 0.8942183822618606,
+    "test_accuracy": 0.8688524590163934,
+    "test_precision": 0.8571428571428571,
+    "test_recall": 0.8571428571428571,
+    "test_roc_auc": 0.9448051948051948
+  }
+]
