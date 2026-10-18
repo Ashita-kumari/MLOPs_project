@@ -35,6 +35,7 @@ jobs:
       - name: Smoke test container API
         run: |
           docker run -d --name heart-disease-api -p 8000:8000 heart-disease-mlops:ci
+          sleep 10
           curl --fail --retry 10 --retry-connrefused --retry-delay 2 --retry-max-time 30 http://127.0.0.1:8000/health
           curl --fail http://127.0.0.1:8000/metrics
           curl --fail -X POST http://127.0.0.1:8000/predict \
